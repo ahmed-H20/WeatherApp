@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather App</title>
+    <link rel="icon" type="image/x-icon" href="/images/sun.png">
+</head>
+    <body>
+        <div class="container">
+            <h1>Weather Forecast</h1>
+            <form class="search">
+            <input type="text" id="searchInput" placeholder="Enter Location">
+            <button id="searchButton">Search</button>
+            </form>
+            <div id="weatherInfo"></div>
+            <div id="toggle">
+                <input type="checkbox" id="switch" class="checkbox"/>                 
+                <label for="switch" class="toggle">
+                    <p>
+                        F     C
+                    </p>
+                </label>            
+            </div>
+        </div>
+        <script src="main.js"></script>
+    </body>  
+</html>
